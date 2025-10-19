@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Installation script for aptos-curl
-# Usage: curl -fsSL https://raw.githubusercontent.com/your-repo/aptos-curl/main/install.sh | bash
+# Usage: curl -fsSL https://raw.githubusercontent.com/ThalaLabs/aptos-curl/main/install.sh | bash
 
 set -e
 
@@ -32,7 +32,7 @@ print_warning() {
 # Default installation directory
 INSTALL_DIR="/usr/local/bin"
 SCRIPT_NAME="aptos-curl"
-REPO_URL="https://raw.githubusercontent.com/your-repo/aptos-curl/main/aptos-curl"
+REPO_URL="https://raw.githubusercontent.com/ThalaLabs/aptos-curl/main/aptos-curl"
 
 echo ""
 print_info "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
