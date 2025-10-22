@@ -54,3 +54,13 @@ Options:
 - **Multi-network support**: Works with Aptos and Movement networks (mainnet, testnet, devnet)
 - **Clean output**: Minimal output by default, verbose mode available
 - **Proper error handling**: Validates inputs and provides clear error messages
+
+## Showcase
+
+```bash
+# Download package with source code available (Aave)
+aptos-curl -a 0x39ddcd9e1a39fa14f25e3f9ec8a86074d05cc0881cbf667df8a6ee70942016fb -o ./aave-pool
+
+# Download package without source code (will decompile)
+aptos-curl -a 0x8b4a2c4bb53857c718a04c020b98f8c2e1f99a68b0f57389a8bf5434cd22e05c -o ./hyperion
+```
